@@ -7,3 +7,7 @@ class User(db.model):
     email_address = db.Column(db.String(length = 30), nullable = False, unique = True)
     password_hash = db.Column(db.String(length = 60), nullable = False)
     
+
+
+
+    # first commit
