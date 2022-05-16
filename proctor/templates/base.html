@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> hello react</title>
+</head>
+<body>
+    <h1>This is React</h1>
+
+    <form>
+        {{ form.username.label() }}
+        {{ form.username(placeholder = "username") }}
+    
+        {{ form.email_address.label() }}
+        {{ form.email_address(placeholder = "email") }}
+
+        {{ form.password1.label() }}
+        {{ form.password1(placeholder = "password") }}
+
+        {{ form.password2.label() }}
+        {{ form.password2(placeholder = "confirm password") }}
+<br>
+        {{ form.submit.label() }}
+        {{ form.submit(placeholder = "Create Account") }}
+
+
+
+    </form>
+</body>
+</html>
